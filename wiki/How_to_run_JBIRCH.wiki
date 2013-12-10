@@ -4,6 +4,8 @@ I get this question a lot: "what is the format of the dataset?"
 
 The answer is: _whatever format you like_, as long as in the end you translate each object into a vector of Doubles.
 
+For example, you can read a space-separated dataset as follows:
+
 {{{
                 BufferedReader in = new BufferedReader(new FileReader(datasetFile));
                 String line = null;

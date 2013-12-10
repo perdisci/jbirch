@@ -1,5 +1,5 @@
 Please take a look at [https://code.google.com/p/jbirch/source/browse/trunk/src/edu/gatech/gtisc/jbirch/test/ the TestX.java files], which should give you a good idea on how to run JBIRCH.
 
 I get this question a lot: "what is the format of the dataset?"
-The answer is: whatever format you like, as long as in the end you translate each object into a vector of Doubles.
 
+The answer is: _whatever format you like_, as long as in the end you translate each object into a vector of Doubles.

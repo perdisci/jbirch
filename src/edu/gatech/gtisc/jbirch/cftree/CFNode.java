@@ -432,12 +432,15 @@ public class CFNode {
 	 * @param newE
 	 */
 	private void replaceClosestPairWithNewMergedEntry(CFEntryPair p, CFEntry newE) {
+
 		for(int i=0; i<this.entries.size(); i++) {
-			if(this.entries.get(i).equals(p.e1))
+			if(this.entries.get(i).equals(p.e1)) {
 				this.entries.set(i, newE);
-			
-			else if(this.entries.get(i).equals(p.e2))
+
+			} else if(this.entries.get(i).equals(p.e2)) {
 				this.entries.remove(i);
+				--i;
+			}
 		}
 	}
 	
